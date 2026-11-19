@@ -1,0 +1,14 @@
+{
+  "databases": [
+    {
+      "name": "saksham-paper-research-journal",
+      "plan": "0.1c-256mb",
+      "region": "virginia",
+      "databaseName": "paper_research",
+      "user": "paper_research",
+      "diskSizeGB": 1,
+      "storageAutoscalingEnabled": false,
+      "ipAllowList": []
+    }
+  ]
+}
