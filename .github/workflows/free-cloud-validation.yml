@@ -1,0 +1,28 @@
+name: Free cloud public-data validation
+on:
+  push:
+    branches: [cloud-research-free-validation]
+    paths:
+      - '.github/workflows/free-cloud-validation.yml'
+      - 'cloud_research/probe/**'
+permissions:
+  contents: read
+concurrency:
+  group: free-cloud-public-data-validation
+  cancel-in-progress: false
+jobs:
+  public-data-probe:
+    if: github.repository == 'agarwalsakshamm/day-trader-skill'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 6
+    steps:
+      - name: Fetch this exact public source commit without credentials
+        env:
+          GIT_TERMINAL_PROMPT: '0'
+        run: |
+          git init .
+          git remote add origin https://github.com/agarwalsakshamm/day-trader-skill.git
+          git fetch --depth 1 origin "$GITHUB_SHA"
+          git checkout --detach FETCH_HEAD
+      - name: Validate live public sources and pinned Python tools
+        run: python3 cloud_research/probe/free_cloud_probe.py

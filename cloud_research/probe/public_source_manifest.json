@@ -1,0 +1,96 @@
+{
+  "repository": "https://github.com/Jakeschincariol/day-trader-skill",
+  "commit": "3d0f4ef6986f4984b7c6bd46f7ff4f87744c3abd",
+  "license": "MIT",
+  "source_files": [
+    {
+      "path": "trader-alerts/SKILL.md",
+      "sha256": "48ba7c580fc64b48ee03b83a6206288641a97495c71dd78205c7f1c6e8b87d11"
+    },
+    {
+      "path": "trader-alerts/alerts.py",
+      "sha256": "2db22d8e9b27ff1776600dd53664e21b55fc8787ed1abdd9e6f1e79bcc80c74f"
+    },
+    {
+      "path": "trader-analyst/SKILL.md",
+      "sha256": "884edfcfcfe0c8c3392093e5eb25da5f37a3fed89ec15f8a968e3c782c8eb8d3"
+    },
+    {
+      "path": "trader-analyst/facts.py",
+      "sha256": "6cd7e24588e7389268cd6af6315768bd9c292032773fe1a7364e07696d7ac6b9"
+    },
+    {
+      "path": "trader-broker/SKILL.md",
+      "sha256": "d1a34683814cce09c8074a978ac817c1e9f4e4790ad6804ad395c227d50b91b8"
+    },
+    {
+      "path": "trader-broker/ticket.py",
+      "sha256": "9500300b3ceba93c1423c0e022654bc6283cbed9084c81b324778f062a5f6559"
+    },
+    {
+      "path": "trader-budget/SKILL.md",
+      "sha256": "ce404e7877013eccbcc757c9db6926a4974d40ed3471696b929e253a27b81112"
+    },
+    {
+      "path": "trader-budget/size.py",
+      "sha256": "2dcb2ef604a92fb022ca210eb67a9b28ef82fefe5f7a2382ce2592461a6d3cba"
+    },
+    {
+      "path": "trader-entry/SKILL.md",
+      "sha256": "e61e10c703915a7dad118b38d0a61fd6457d34e320e36f48abcac5f6ede1a5af"
+    },
+    {
+      "path": "trader-entry/entry.py",
+      "sha256": "11518ca87e329520741044329e37066207d8a096d37809cd29ebed9f6d2776ec"
+    },
+    {
+      "path": "trader-exit/SKILL.md",
+      "sha256": "4bccdfff09c8414eee3a486e239bff9602b219d8439e9b0f8bce4743a5999841"
+    },
+    {
+      "path": "trader-exit/exit.py",
+      "sha256": "8183a2cc5c71cecef33d7ae6a401416a5d042aeb7d130a1f8d5e8a51642447fc"
+    },
+    {
+      "path": "trader-news/SKILL.md",
+      "sha256": "6a26283452c15ac9001c8f41633cab829abd2e6d6c7ccc95d7d26af39ec6319b"
+    },
+    {
+      "path": "trader-news/news.py",
+      "sha256": "bf9e12a9c5962de3f661bf334e76f4df417a39879ff067426b338b7a063c71f3"
+    },
+    {
+      "path": "trader-pelosi/SKILL.md",
+      "sha256": "960f2fb1c2a1921c3cbb70f837fd942a05b74a345e3ef05d0c90c7b2341f67bb"
+    },
+    {
+      "path": "trader-pelosi/ptr.py",
+      "sha256": "b325c8b56a9580f8ce6a447b5b5d3d9c34508bbed3d67d50d3f71603807e9fcc"
+    },
+    {
+      "path": "trader-risk/SKILL.md",
+      "sha256": "e3671889e6b658ed769f3ccc2f117436ff54080c1378d5bfbbe29463da6c16d5"
+    },
+    {
+      "path": "trader-risk/check.py",
+      "sha256": "6faf9372c20d30b33dbc6175d0d81935f8dc88bc8e94aacd2ed0ae6919aafa18"
+    },
+    {
+      "path": "trader-scanner/SKILL.md",
+      "sha256": "8db022339f3ddd3a5f0574152040d154c484ef4c56f5dbc4a4d6c5768b8c92f7"
+    },
+    {
+      "path": "trader-scanner/scan.py",
+      "sha256": "2cc0d99a4f21d2b8a28b6917d527ca17e3a71dea0951365d5f82c6b5afcac913"
+    },
+    {
+      "path": "trader-timemachine/SKILL.md",
+      "sha256": "394e025b2584fee9e485c1c3ff5255ff8efefc816cad72c2a1b97e30107701dc"
+    },
+    {
+      "path": "trader-timemachine/timemachine.py",
+      "sha256": "5e73d566c78e5e42142371319491eef6257b6fc31fab5a87aa62506d03e9b5a1"
+    }
+  ],
+  "fixtures_executed": false
+}
